@@ -7,6 +7,73 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.0] - 2025-11-10
+
+### 🎉 First Official Stable Release!
+
+FortiSASE Made Easy v1.0.0 is now production-ready with complete auto-update capability.
+
+### What's New
+
+**Auto-Update System:**
+- Automatic update notifications on app startup (background checks)
+- Manual "Check for Updates" option in Settings page
+- Secure Ed25519 signature verification for all updates
+- Non-blocking update checks - never interrupts your workflow
+
+**Enhanced User Interface:**
+- Full markdown rendering in help panels (Avalonia 11.3)
+- Context-aware help drawer system (press F1)
+- Real-time connection status indicator in status bar
+- Improved progress synchronization across all operations
+
+**Core Features:**
+- Bulk import hosts and groups from Excel/CSV files
+- Automatic hostname sanitization (35 character limit compliance)
+- Flexible group management (Ask/Merge/Overwrite modes)
+- Undo/rollback capability for failed imports
+- Secure credential storage using Windows DPAPI
+- Comprehensive logging with 7-day retention
+
+### From Beta to Stable
+
+This release marks the transition from pre-release (0.x.x) to production-ready (1.x.x). All features have been thoroughly tested with 206 passing unit tests.
+
+**Previous Beta Releases:**
+- v0.6.1 - Markdown rendering fix
+- v0.6.0 - Auto-updater integration
+- v0.5.1 - Progress synchronization improvements
+- v0.5.0 - Drawer help system
+- v0.4.0 - Bulk deletion feature
+- v0.3.1 - Session persistence fixes
+- v0.3.0 - IP validation
+- v0.2.1 - HTTP 411 fix
+- v0.2.0 - MVVM framework migration
+- v0.1.1 - Critical bug fixes
+- v0.1.0 - Initial MVP
+
+### System Requirements
+
+- **Operating System:** Windows 10/11 (64-bit)
+- **Runtime:** None required (self-contained .NET 8.0 runtime included)
+- **Memory:** 512 MB minimum
+- **Disk Space:** 200 MB free space
+- **Network:** Internet connection for FortiSASE API access
+
+### Installation
+
+1. Download `FortiSASE-Made-Easy-v1.0.0-win-x64.zip` from [Releases](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/tag/v1.0.0)
+2. Extract to your preferred location
+3. Run `FortiSASE.App.exe`
+4. Configure FortiCloud credentials in Settings tab
+5. Start importing hosts!
+
+### Auto-Update
+
+Future versions will be automatically detected! The app will notify you when updates are available and guide you through installation.
+
+---
+
 ## [0.5.1] - 2025-11-09
 
 ### Fixed
