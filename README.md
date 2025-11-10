@@ -4,6 +4,7 @@ A cross-platform desktop application for bulk importing hosts and groups into Fo
 
 ## Features
 
+- **Auto-Update System**: Automatic update notifications with secure signature verification (v1.0.0+)
 - **Excel to CSV Conversion**: Convert Excel host lists to FortiSASE-compatible CSV format with automatic hostname sanitization
 - **Bulk Import**: Import hundreds or thousands of hosts via FortiSASE REST API with real-time progress tracking
 - **Group Management**: Flexible group update modes (Ask, Merge, Overwrite) for safe updates
@@ -13,7 +14,7 @@ A cross-platform desktop application for bulk importing hosts and groups into Fo
 
 ## Download
 
-**Latest Release:** [v0.5.1](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/latest)
+**Latest Release:** [v1.0.0](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/latest) - **First Official Stable Release!**
 
 ### System Requirements
 
@@ -24,10 +25,11 @@ A cross-platform desktop application for bulk importing hosts and groups into Fo
 ### Installation
 
 #### Windows
-1. Download `FortiSASE-Made-Easy-v0.5.1-win-x64.zip` from the [latest release](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/latest)
+1. Download `FortiSASE-Made-Easy-v1.0.0-win-x64.zip` from the [latest release](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/latest)
 2. Extract the zip file
 3. Run `FortiSASE.App.exe`
 4. No installation required - runs standalone
+5. **Auto-updates enabled** - Future versions will be detected automatically
 
 ## Quick Start
 
