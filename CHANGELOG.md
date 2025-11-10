@@ -14,12 +14,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 FortiSASE Made Easy v1.0.0 is now production-ready with complete auto-update capability.
 
 ### What's New
-n**Multi-Platform Support:**
-- ✅ Windows 10/11 (64-bit)
-- ✅ macOS 11+ Intel (x64)
-- ✅ macOS 11+ Apple Silicon (arm64)
-- Auto-update system works seamlessly on all platforms
 
+**Windows Support:**
+- ✅ Windows 10/11 (64-bit)
+- ✅ Single-file executable deployment (no extraction required)
+- ✅ Self-contained .NET 8.0 runtime (no dependencies to install)
 
 **Auto-Update System:**
 - Automatic update notifications on app startup (background checks)
@@ -68,11 +67,12 @@ This release marks the transition from pre-release (0.x.x) to production-ready (
 
 ### Installation
 
-1. Download `FortiSASE-Made-Easy-v1.0.0-win-x64.zip` from [Releases](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/tag/v1.0.0)
-2. Extract to your preferred location
-3. Run `FortiSASE.App.exe`
-4. Configure FortiCloud credentials in Settings tab
-5. Start importing hosts!
+1. Download `FortiSASE-Made-Easy-v1.0.0-win-x64.exe` from [Releases](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/tag/v1.0.0)
+2. Run the executable (no installation or extraction required)
+3. Configure FortiCloud credentials in Settings tab
+4. Start importing hosts!
+
+**Note:** On first launch, the app may extract dependencies to a temporary folder. This is normal and only happens once.
 
 ### Auto-Update
 
@@ -232,9 +232,11 @@ This project follows [Semantic Versioning](https://semver.org/):
 
 When upgrading between versions:
 1. Close the application
-2. Extract new version to a new folder (don't overwrite old version)
+2. Download the new `.exe` file
 3. Run the new executable
 4. Settings and credentials are preserved (stored in AppData)
+
+**Note:** You can delete old executable files after upgrading - your data is stored separately in AppData.
 
 ---
 

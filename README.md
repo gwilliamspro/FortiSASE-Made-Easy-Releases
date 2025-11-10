@@ -1,6 +1,6 @@
 # FortiSASE Made Easy
 
-A cross-platform desktop application for bulk importing hosts and groups into FortiSASE.
+A Windows desktop application for bulk importing hosts and groups into FortiSASE.
 
 ## Features
 
@@ -10,7 +10,7 @@ A cross-platform desktop application for bulk importing hosts and groups into Fo
 - **Group Management**: Flexible group update modes (Ask, Merge, Overwrite) for safe updates
 - **Undo/Rollback**: Automatically rollback failed imports with one click
 - **Secure Credential Storage**: Windows DPAPI encryption for stored API credentials
-- **User-Friendly Interface**: Modern cross-platform UI built with .NET and Avalonia
+- **User-Friendly Interface**: Modern UI built with .NET and Avalonia
 
 ## Download
 
@@ -18,18 +18,20 @@ A cross-platform desktop application for bulk importing hosts and groups into Fo
 
 ### System Requirements
 
-- **Windows:** Windows 10/11 (64-bit) ✅
-- **macOS:** macOS 11+ (Intel or Apple Silicon) - *Requires native Mac build (coming soon)*
-- **Linux:** Ubuntu 20.04+ or equivalent - *Coming soon*
+- **Operating System:** Windows 10/11 (64-bit)
+- **Runtime:** None required (self-contained .NET 8.0 runtime included)
+- **Memory:** 512 MB minimum
+- **Disk Space:** 200 MB free space
+- **Network:** Internet connection for FortiSASE API access
 
 ### Installation
 
 #### Windows
-1. Download `FortiSASE-Made-Easy-v1.0.0-win-x64.zip` from the [latest release](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/latest)
-2. Extract the zip file
-3. Run `FortiSASE.App.exe`
-4. No installation required - runs standalone
-5. **Auto-updates enabled** - Future versions will be detected automatically
+1. Download `FortiSASE-Made-Easy-v1.0.0-win-x64.exe` from the [latest release](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/latest)
+2. Run the executable - no installation or extraction required
+3. **Auto-updates enabled** - Future versions will be detected automatically
+
+**Note:** On first launch, the app may extract dependencies to a temporary folder. This is normal and only happens once.
 
 
 ## Quick Start
@@ -40,7 +42,7 @@ A cross-platform desktop application for bulk importing hosts and groups into Fo
 2. Navigate to **Settings** tab
 3. Enter your FortiCloud API credentials (apiId and password)
 4. Click **Test Connection** to verify
-5. Click **Save Credentials** (Windows: encrypted storage, macOS: session-only)
+5. Click **Save Credentials** (encrypted using Windows DPAPI)
 
 ### 2. Convert Excel to CSV
 

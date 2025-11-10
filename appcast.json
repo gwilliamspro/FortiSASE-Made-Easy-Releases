@@ -1,0 +1,22 @@
+{
+  "title": "FortiSASE Made Easy",
+  "language": "en",
+  "description": "Most recent changes with links to updates",
+  "link": "",
+  "items": [
+    {
+      "title": "FortiSASE Made Easy 1.0.0\u002B2e01564f405c01f17ecccfe549241a2f438930fd",
+      "version": "1.0.0\u002B2e01564f405c01f17ecccfe549241a2f438930fd",
+      "short_version": "1.0.0",
+      "description": "",
+      "url": "https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/download/v1.0.0/FortiSASE-Made-Easy-v1.0.0-win-x64.exe",
+      "signature": "AuhWqM7aCL6VGkfJkjzOSDg2Z82veb5RJqzbiCY3zlsv3L8ZJeExca9pzVdp7A0dHQtMNdO5uWDTVgJYoaIuBA==",
+      "publication_date": "2025-11-10T20:49:31.641386Z",
+      "is_critical": false,
+      "size": 49437229,
+      "os": "windows",
+      "channel": "",
+      "type": "application/x-msdos-program"
+    }
+  ]
+}
