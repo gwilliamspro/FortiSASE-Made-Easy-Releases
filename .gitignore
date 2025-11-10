@@ -1,0 +1,25 @@
+# Release artifacts (these go in GitHub Releases, not git)
+*.exe
+*.dll
+*.zip
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+*.tar.gz
+
+# Temporary files
+*.log
+*.tmp
+~*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
