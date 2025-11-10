@@ -19,7 +19,7 @@ A cross-platform desktop application for bulk importing hosts and groups into Fo
 ### System Requirements
 
 - **Windows:** Windows 10/11 (64-bit) ✅
-- **macOS:** macOS 11+ (Intel or Apple Silicon) ✅
+- **macOS:** macOS 11+ (Intel or Apple Silicon) - *Requires native Mac build (coming soon)*
 - **Linux:** Ubuntu 20.04+ or equivalent - *Coming soon*
 
 ### Installation
@@ -31,16 +31,6 @@ A cross-platform desktop application for bulk importing hosts and groups into Fo
 4. No installation required - runs standalone
 5. **Auto-updates enabled** - Future versions will be detected automatically
 
-#### macOS
-1. Download from the [latest release](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/latest):
-   - **Intel Macs:** `FortiSASE-Made-Easy-v1.0.0-osx-x64.zip`
-   - **Apple Silicon (M1/M2/M3):** `FortiSASE-Made-Easy-v1.0.0-osx-arm64.zip`
-2. Extract to Applications folder
-3. **Right-click** `FortiSASE.App` → **Open** (bypass Gatekeeper)
-4. Confirm "Open" in the security dialog
-5. **Auto-updates enabled** - Future versions will be detected automatically
-
-**macOS Note:** Binaries are unsigned. Right-click → Open required for first launch. Future releases will include code-signed binaries.
 
 ## Quick Start
 
@@ -97,16 +87,6 @@ Click **Undo Last Import** to rollback changes from the most recent import sessi
 - **Invalid Characters**: Replaced with underscores
 - **Duplicates**: Renamed with `-2`, `-3` suffix
 
-### macOS Gatekeeper Warning
-**Problem:** "FortiSASE.App cannot be opened because the developer cannot be verified"
-
-**Solution:**
-1. Right-click (or Control-click) the app
-2. Select **Open** from the menu
-3. Click **Open** in the dialog
-4. macOS will remember your choice for future launches
-
-## Performance
 
 Import times vary by file size and API rate limits:
 - **< 500 hosts**: ~3-5 minutes

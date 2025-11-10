@@ -9,9 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.0] - 2025-11-10
 
-### 🎉 First Official Stable Release - Now with macOS Support!
+### 🎉 First Official Stable Release!
 
-FortiSASE Made Easy v1.0.0 is now production-ready with complete auto-update capability and cross-platform support for Windows and macOS.
+FortiSASE Made Easy v1.0.0 is now production-ready with complete auto-update capability.
 
 ### What's New
 n**Multi-Platform Support:**
