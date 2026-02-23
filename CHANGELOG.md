@@ -7,6 +7,49 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.2.0] - 2026-02-23
+
+### Added
+
+**Nested Group Support**
+
+You can now nest groups within groups using the `>>` prefix syntax in your Excel files!
+
+**Syntax:**
+```
+# Group D, Group E, >>Group F
+192.168.1.1
+192.168.1.2
+```
+
+**Result:**
+- All hosts (192.168.1.1, 192.168.1.2) added to **Group D**, **Group E**, and **Group F**
+- **Group D** added as a member of **Group F** (nested)
+- **Group E** added as a member of **Group F** (nested)
+
+**Features:**
+- Groups WITHOUT `>>` prefix = child groups (added as members of parent)
+- Group WITH `>>` prefix = parent group
+- Hosts under the header get added to ALL groups
+- Child groups are nested inside parent group
+- Full undo support removes nested relationships
+
+**Use Cases:**
+- Create hierarchical group structures in a single import
+- Organize hosts into multiple overlapping groups
+- Build parent-child group relationships automatically
+
+**Backward Compatible:**
+All existing Excel formats without `>>` syntax continue to work exactly as before.
+
+### Installation
+
+1. Download `FortiSASE.App.exe` from [Releases](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/tag/v1.2.0)
+2. Run the executable (replaces previous version)
+3. Existing users: The app will auto-update from v1.1.x
+
+---
+
 ## [1.1.3] - 2026-02-23
 
 ### Fixed
