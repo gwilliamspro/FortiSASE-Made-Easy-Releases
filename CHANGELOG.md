@@ -7,6 +7,41 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.0] - 2026-02-23
+
+### Added
+
+**CIDR Notation Support**
+
+You can now import IP subnets using CIDR notation directly in your Excel files!
+
+**Supported Formats:**
+| Input | Result | Host Name |
+|-------|--------|-----------|
+| `192.168.1.1` | `192.168.1.1/32` | `Host_192_168_1_1` |
+| `192.168.1.0/24` | `192.168.1.0/24` | `Net_192_168_1_0_24` |
+| `10.0.0.0/8` | `10.0.0.0/8` | `Net_10_0_0_0_8` |
+| `10.0.0.0/24 core-net` | `10.0.0.0/24` | `core-net` |
+
+**Features:**
+- Parse CIDR notation from Excel cells (e.g., `192.168.1.0/24`, `10.0.0.0/8`)
+- Automatic validation: valid IP (0-255 octets) + valid prefix (0-32)
+- Smart warnings for non-network addresses (e.g., `192.168.1.50/24` warns about expected `192.168.1.0/24`)
+- Automatic `Net_` prefix for subnet host names (when no custom name provided)
+- Bare IPs automatically convert to `/32` for backward compatibility
+- Full support for CIDR + custom name format in single cell
+
+**Backward Compatible:**
+All existing Excel formats continue to work exactly as before. CIDR support is additive.
+
+### Installation
+
+1. Download `FortiSASE.App.exe` from [Releases](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/tag/v1.1.0)
+2. Run the executable (replaces v1.0.0)
+3. Your settings and credentials are preserved
+
+---
+
 ## [1.0.0] - 2025-11-10
 
 ### 🎉 First Official Stable Release!
