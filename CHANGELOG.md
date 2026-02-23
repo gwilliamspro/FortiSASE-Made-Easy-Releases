@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.2.3] - 2026-02-23
+
+### Fixed
+
+**Auto-Updater Single-File App Support**
+- Fixed auto-updater not replacing the executable after download
+- Implemented custom update handler for single-file executables
+- Shows progress window during update installation
+- Previous versions required manual download; now auto-updates work correctly
+
+### Installation
+
+1. Download `FortiSASE.App.exe` from [Releases](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/tag/v1.2.3)
+2. Run the executable (replaces previous version)
+3. Future updates will auto-install correctly
+
+---
+
 ## [1.2.2] - 2026-02-23
 
 ### Improved
