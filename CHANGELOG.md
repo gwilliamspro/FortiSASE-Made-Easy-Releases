@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.2.2] - 2026-02-23
+
+### Improved
+
+**Help Documentation Updates**
+- Added comprehensive documentation for **CIDR Notation** support (v1.1.0 feature)
+- Added comprehensive documentation for **Nested Groups** support (v1.2.0 feature)
+- Updated Import workflow documentation to reflect 6-stage pipeline
+- Added nested group processing examples and progress display info
+
+### Installation
+
+1. Download `FortiSASE.App.exe` from [Releases](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/tag/v1.2.2)
+2. Run the executable (replaces previous version)
+3. Press **F1** on Convert or Import tabs to see updated help
+
+---
+
 ## [1.2.1] - 2026-02-23
 
 ### Fixed
