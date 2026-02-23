@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.2.1] - 2026-02-23
+
+### Fixed
+
+**Auto-Updater JSON Appcast Support**
+- Fixed "not connected to internet" error that persisted after v1.1.3
+- Added explicit JsonAppCastGenerator configuration required by NetSparkle 3.0+
+- Added detailed logging for auto-updater debugging
+
+### Installation
+
+1. Download `FortiSASE.App.exe` from [Releases](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/tag/v1.2.1)
+2. Run the executable (replaces previous version)
+3. Existing users: Manual update required (auto-updater was broken in previous versions)
+
+---
+
 ## [1.2.0] - 2026-02-23
 
 ### Added
