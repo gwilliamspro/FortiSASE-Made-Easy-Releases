@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.2] - 2026-02-23
+
+### Fixed
+
+**Duplicate Group Members Bug**
+- Fixed a bug where hosts belonging to multiple groups could have their group memberships duplicated in the output
+- This caused API errors when importing: `"members: [...] has non-unique elements"`
+- Groups are now correctly deduplicated during conversion
+
+### Installation
+
+1. Download `FortiSASE.App.exe` from [Releases](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/tag/v1.1.2)
+2. Run the executable (replaces previous version)
+3. Existing users: The app will auto-update from v1.1.1
+
+---
+
 ## [1.1.1] - 2026-02-23
 
 ### Added
