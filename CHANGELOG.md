@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.3] - 2026-02-23
+
+### Fixed
+
+**Auto-Updater Connection Error**
+- Fixed "not connected to internet" error when checking for updates
+- The auto-update check now works correctly
+
+### Installation
+
+1. Download `FortiSASE.App.exe` from [Releases](https://github.com/gwilliamspro/FortiSASE-Made-Easy-Releases/releases/tag/v1.1.3)
+2. Run the executable (replaces previous version)
+
+---
+
 ## [1.1.2] - 2026-02-23
 
 ### Fixed
