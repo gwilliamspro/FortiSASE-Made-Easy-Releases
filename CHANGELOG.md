@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.1.1] - 2026-02-23
+
+### Added
+
+**Version Display in Window Title**
+- Window title now shows version number (e.g., "FortiSASE Made Easy v1.1.1")
+- Helps users verify which version they're running
+
+---
+
 ## [1.1.0] - 2026-02-23
 
 ### Added
